@@ -1,15 +1,26 @@
+# Python
+venv/
+.pytest_cache/
+__pycache__/
+*.pyc
+
+# Android / Gradle
+.gradle/
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
+
+# Android generated / native build
 /build
 /captures
 .externalNativeBuild
 .cxx
-local.properties
+
+# macOS
+.DS_Store
